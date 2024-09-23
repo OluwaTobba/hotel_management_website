@@ -1,0 +1,1 @@
+This is a fully functional hotel website, features to be added upon continuous development
