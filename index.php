@@ -10,6 +10,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
@@ -38,9 +41,28 @@
             }
         /* end of number input hide */
 
+        .custom-bg {
+            background-color: #2eccac;
+        }
+        .custom-bg:hover {
+            background-color: #279e8c;
+        }
+
+        .booking-form {
+            margin-top: -50px;
+            z-index: 2;
+            position: relative;
+        }
+        @media screen and (max-width: 578px){
+            .booking-form {
+                margin-top: 25px;
+                padding: 0 35px;
+            }
+        }
+        
     </style>
 </head>
-<body>
+<body class="bg-light">
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg nav-light bg-white px-lg-3 py-lg-2 shadow-sm sticky-top">
@@ -203,6 +225,99 @@
     </div>
     <!-- End of Registration Modal -->
 
+    <!-- Header Carousel -->
+    <div class="container-fluid px-lg-4 mt-3">
+        <div class="swiper swiper-container">
+            <div class="swiper-wrapper header-img">
+                <div class="swiper-slide">
+                    <img src="images/carousels/jagz-1.jpg" class="d-block w-100" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/carousels/jagz-2.jpg" class="d-block w-100" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/carousels/jagz-3.jpg" class="d-block w-100" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Header Carousel -->
+
+    <!-- Booking Availability Form -->
+    <div class="container booking-form">
+        <div class="row">
+
+            <div class="col-lg-12 p-4 bg-white shadow rounded">
+                
+                <h4 class="text-center mb-4">Book Your Room Now</h4>
+
+                <form>
+
+                    <div class="row align-items-end">
+
+                        <div class="col-lg-3 mb-3">
+                            <label class="form-label" style="font-weight: 500;">Check-In</label>
+                            <input type="date" id="checkin" name="checkin" class="form-control shadow-none" required>
+                        </div>
+                        <div class="col-lg-3 mb-3">
+                            <label class="form-label" style="font-weight: 500;">Check-Out</label>
+                            <input type="date" id="checkin" name="checkin" class="form-control shadow-none" required>
+                        </div>
+                        <div class="col-lg-3 mb-3">
+                            <label class="form-label" style="font-weight: 500;">Rooms</label>
+                            <select class="form-select shadow-none">
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                                <option value="4">Four</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-2 mb-3">
+                            <label class="form-label" style="font-weight: 500;">Adult</label>
+                            <select class="form-select shadow-none">
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                                <option value="4">Four</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-1 mb-lg-3 mt-2">
+                            <button type="submit" class="btn text-white shadow-none custom-bg">Submit</button>
+                        </div>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- End of Booking Availability Form -->
+
+    <!-- Rooms Section -->
+    <!-- End of Rooms Section -->
+
+    <br><br><br>
+    <br><br><br>
+
+    <!-- Bootstrap CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- Swiper JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".swiper-container", {
+        spaceBetween: 30,
+        effect: "fade",
+        loop: true,
+        autoplay:{
+            delay: 2500,
+            disableOnInteraction: false,
+        }
+        });
+    </script>
+
 </body>
 </html>
