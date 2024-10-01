@@ -17,37 +17,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <!-- Local Styling -->
+    <link rel="stylesheet" href="css/common.css">
     <style>
-
-        * {
-            font-family: "Poppins", sans-serif;
-        }
-
-        .h-font {
-            font-family: "Merienda", cursive;
-        }
-
-        /* number input hide */
-            /* Chrome, Safari, Edge, Opera */
-            input::-webkit-outer-spin-button,
-            input::-webkit-inner-spin-button {
-                -webkit-appearance: none;
-                margin: 0;
-            }
-
-            /* Firefox */
-            input[type=number] {
-                -moz-appearance: textfield;
-            }
-        /* end of number input hide */
-
-        .custom-bg {
-            background-color: #2eccac;
-        }
-        .custom-bg:hover {
-            background-color: #279e8c;
-        }
-
         .booking-form {
             margin-top: -50px;
             z-index: 2;
@@ -59,7 +30,6 @@
                 padding: 0 35px;
             }
         }
-        
     </style>
 </head>
 <body class="bg-light">
@@ -166,7 +136,7 @@
 
                     <div class="modal-body">
 
-                        <span class="badge text-bg-light mb-3 text-wrap lh-base">
+                        <span class="badge rounded-pill bg-light text-dark mb-3 text-wrap lh-base">
                             Note: Your Details Must Match Your ID (NIN, National ID Card, Passport or Driving License). As it will be required during check-in. 
                         </span>
 
@@ -296,7 +266,209 @@
     <!-- End of Booking Availability Form -->
 
     <!-- Rooms Section -->
+    <h2 class="mt-5 pt-4 mb-4 text-center fw-bold h-font">OUR ROOMS</h2>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-4 col-md-6 mb-3">
+
+                <div class="card shadow" style="width: 350px; margin: auto;">
+
+                    <img src="images/rooms/room-img-1.jpg" class="card-img-top" alt="...">
+
+                    <div class="card-body">
+
+                        <h5>Single Room</h5>
+
+                        <h6 class="mb-4">₦200,000 per night</h6>
+
+                        <div class="features mb-4">
+                            <h6 class="mb-1">Features</h6>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                2 beds 
+                            </span>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                1 Bathroom
+                            </span>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                Sofa 
+                            </span>
+                        </div>
+
+                        <div class="facilities mb-5">
+                            <h6 class="mb-4">Facilities</h6>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                WiFi
+                            </span>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                TV
+                            </span>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                AC 
+                            </span>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                Heater 
+                            </span>
+                        </div>
+
+                        <div class="rating mb-4">
+                            <h6 class="mb-4">Rating</h6>
+                            <span class="badge rounded-pill bg-light text-dark">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </span>
+                        </div>
+                        
+                        <div class="d-flex justify-content-evenly mb-2">
+                            <a href="#" class="btn btn-sm btn-outline-dark shadow-none">More Details</a>
+                            <a href="#" class="btn btn-sm text-white custom-bg shadow-none">Book Now</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-3">
+
+                <div class="card shadow" style="width: 350px; margin: auto;">
+
+                    <img src="images/rooms/room-img-2.jpeg" class="card-img-top" alt="...">
+
+                    <div class="card-body">
+
+                        <h5>Single Room</h5>
+
+                        <h6 class="mb-4">₦300,000 per night</h6>
+
+                        <div class="features mb-4">
+                            <h6 class="mb-1">Features</h6>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                2 beds 
+                            </span>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                1 Bathroom
+                            </span>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                Sofa 
+                            </span>
+                        </div>
+
+                        <div class="facilities mb-5">
+                            <h6 class="mb-4">Facilities</h6>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                WiFi
+                            </span>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                TV
+                            </span>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                AC 
+                            </span>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                Heater 
+                            </span>
+                        </div>
+
+                        <div class="rating mb-4">
+                            <h6 class="mb-4">Rating</h6>
+                            <span class="badge rounded-pill bg-light text-dark">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-half text-warning"></i>
+                            </span>
+                        </div>
+                        
+                        <div class="d-flex justify-content-evenly mb-2">
+                            <a href="#" class="btn btn-sm btn-outline-dark shadow-none">More Details</a>
+                            <a href="#" class="btn btn-sm text-white custom-bg shadow-none">Book Now</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+
+                <div class="card shadow" style="width: 350px; margin: auto;">
+
+                    <img src="images/rooms/room-img-3.jpg" class="card-img-top" alt="...">
+
+                    <div class="card-body">
+
+                        <h5>Single Room</h5>
+
+                        <h6 class="mb-4">₦500,000 per night</h6>
+
+                        <div class="features mb-4">
+                            <h6 class="mb-1">Features</h6>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                2 beds 
+                            </span>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                1 Bathroom
+                            </span>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                Sofa 
+                            </span>
+                        </div>
+
+                        <div class="facilities mb-5">
+                            <h6 class="mb-4">Facilities</h6>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                WiFi
+                            </span>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                TV
+                            </span>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                AC 
+                            </span>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                Heater 
+                            </span>
+                        </div>
+
+                        <div class="rating mb-4">
+                            <h6 class="mb-4">Rating</h6>
+                            <span class="badge rounded-pill bg-light text-dark">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </span>
+                        </div>
+                        
+                        <div class="d-flex justify-content-evenly mb-2">
+                            <a href="#" class="btn btn-sm btn-outline-dark shadow-none">More Details</a>
+                            <a href="#" class="btn btn-sm text-white custom-bg shadow-none">Book Now</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-12 text-center mt-5">
+                <a href="#" class="btn btn-sm btn-outline-dark rounded-2 fw-bold shadow-none">SEE MORE >>></a>
+            </div>
+        
+        </div>
+    </div>
     <!-- End of Rooms Section -->
+
+    <!-- Facilities Section -->
+    <h2 class="mt-5 pt-4 mb-4 text-center fw-bold h-font">OUR FACILITIES</h2>
+    <!-- End of Facilities Section -->
 
     <br><br><br>
     <br><br><br>

@@ -1,0 +1,28 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.h-font {
+    font-family: "Merienda", cursive;
+}
+
+/* number input hide */
+    /* Chrome, Safari, Edge, Opera */
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    /* Firefox */
+    input[type=number] {
+        -moz-appearance: textfield;
+    }
+/* end of number input hide */
+
+.custom-bg {
+    background-color: #2eccac;
+}
+.custom-bg:hover {
+    background-color: #279e8c;
+}
