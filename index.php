@@ -336,7 +336,7 @@
 
                 <div class="card shadow" style="width: 350px; margin: auto;">
 
-                    <img src="images/rooms/room-img-2.jpeg" class="card-img-top" alt="...">
+                    <img src="images/rooms/room-img-3.jpg" class="card-img-top" alt="...">
 
                     <div class="card-body">
 
@@ -399,7 +399,7 @@
 
                 <div class="card shadow" style="width: 350px; margin: auto;">
 
-                    <img src="images/rooms/room-img-3.jpg" class="card-img-top" alt="...">
+                    <img src="images/rooms/room-img-2.jpeg" class="card-img-top" alt="...">
 
                     <div class="card-body">
 
