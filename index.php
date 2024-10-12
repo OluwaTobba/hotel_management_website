@@ -459,7 +459,7 @@
             </div>
 
             <div class="col-lg-12 text-center mt-5">
-                <a href="#" class="btn btn-sm btn-outline-dark rounded-2 fw-bold shadow-none">SEE MORE >>></a>
+                <a href="#" class="btn btn-sm btn-outline-dark rounded-2 fw-bold shadow-none">SEE MORE ROOMS >>></a>
             </div>
         
         </div>
@@ -468,7 +468,137 @@
 
     <!-- Facilities Section -->
     <h2 class="mt-5 pt-4 mb-4 text-center fw-bold h-font">OUR FACILITIES</h2>
+    <div class="container">
+
+        <div class="row justify-content-evenly px-lg-0 px-md-0 px-5">
+
+            <div class="col-lg-2 col-md-2 text-center bg-white py-4 my-3 rounded shadow">
+                <img src="images/features/wifi.png" alt="wifi icon" width="80px">
+                <h5 class="mt-3">Wi-Fi</h5>
+            </div>
+            <div class="col-lg-2 col-md-2 text-center bg-white py-4 my-3 rounded shadow">
+                <img src="images/features/wifi.png" alt="wifi icon" width="80px">
+                <h5 class="mt-3">Club</h5>
+            </div>
+            <div class="col-lg-2 col-md-2 text-center bg-white py-4 my-3 rounded shadow">
+                <img src="images/features/wifi.png" alt="wifi icon" width="80px">
+                <h5 class="mt-3">Cinema</h5>
+            </div>
+            <div class="col-lg-2 col-md-2 text-center bg-white py-4 my-3 rounded shadow">
+                <img src="images/features/wifi.png" alt="wifi icon" width="80px">
+                <h5 class="mt-3">Swimming Pool</h5>
+            </div>
+            <div class="col-lg-2 col-md-2 text-center bg-white py-4 my-3 rounded shadow">
+                <img src="images/features/wifi.png" alt="wifi icon" width="80px">
+                <h5 class="mt-3">Bar</h5>
+            </div>
+
+            <div class="col-lg-12 text-center mt-5">
+                <a href="#" class="btn btn-sm btn-outline-dark rounded-2 fw-bold shadow-none">SEE MORE FACILITIES >>></a>
+            </div>
+
+        </div>
+
+    </div>
     <!-- End of Facilities Section -->
+
+    <!-- Testimonials -->
+    <h2 class="mt-5 pt-4 mb-4 text-center fw-bold h-font">TESTIMONIALS</h2>
+    <div class="container mt-5">
+
+        <div class="swiper testimonialSwiper">
+            <div class="swiper-wrapper mb-5">
+
+                <div class="swiper-slide bg-white p-4">
+                    <div class="profile d-flex align-items-center p-4">
+                        <img src="images/features/club.jpg" alt="" width="30px">
+                        <h6 class="m-0 ms-2">John Doe</h6>
+                    </div>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. In molestiae ut aspernatur accusantium sit, vero repudiandae obcaecati deleniti delectus excepturi.
+                    </p>
+                    <div class="rating">
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide bg-white p-4">
+                    <div class="profile d-flex align-items-center p-4">
+                        <img src="images/features/club.jpg" alt="" width="30px">
+                        <h6 class="m-0 ms-2">John Doe</h6>
+                    </div>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. In molestiae ut aspernatur accusantium sit, vero repudiandae obcaecati deleniti delectus excepturi.
+                    </p>
+                    <div class="rating">
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide bg-white p-4">
+                    <div class="profile d-flex align-items-center p-4">
+                        <img src="images/features/club.jpg" alt="" width="30px">
+                        <h6 class="m-0 ms-2">John Doe</h6>
+                    </div>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. In molestiae ut aspernatur accusantium sit, vero repudiandae obcaecati deleniti delectus excepturi.
+                    </p>
+                    <div class="rating">
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide bg-white p-4">
+                    <div class="profile d-flex align-items-center p-4">
+                        <img src="images/features/club.jpg" alt="" width="30px">
+                        <h6 class="m-0 ms-2">John Doe</h6>
+                    </div>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. In molestiae ut aspernatur accusantium sit, vero repudiandae obcaecati deleniti delectus excepturi.
+                    </p>
+                    <div class="rating">
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide bg-white p-4">
+                    <div class="profile d-flex align-items-center p-4">
+                        <img src="images/features/club.jpg" alt="" width="30px">
+                        <h6 class="m-0 ms-2">John Doe</h6>
+                    </div>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. In molestiae ut aspernatur accusantium sit, vero repudiandae obcaecati deleniti delectus excepturi.
+                    </p>
+                    <div class="rating">
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </div>
+    <!-- End of Testimonials -->
+
+    <!-- Contact Us Section -->
+    <!-- End of Contact Us Section -->
 
     <br><br><br>
     <br><br><br>
@@ -481,13 +611,43 @@
     <!-- Initialize Swiper -->
     <script>
         var swiper = new Swiper(".swiper-container", {
-        spaceBetween: 30,
-        effect: "fade",
-        loop: true,
-        autoplay:{
-            delay: 2500,
-            disableOnInteraction: false,
-        }
+            spaceBetween: 30,
+            effect: "fade",
+            loop: true,
+            autoplay:{
+                delay: 2500,
+                disableOnInteraction: false,
+            }
+        });
+
+        var swiper = new Swiper(".testimonialSwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            slidesPerView: "3",
+            loop: true,
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: false,
+            },
+            breakpoints: {
+                320: {
+                    slidesPerView: 1,
+                },
+                640: {
+                    slidesPerView: 1,
+                },
+                768: {
+                    slidesPerView: 2,
+                },
+                1024: {
+                    slidesPerView: 3,
+                }
+            }
         });
     </script>
 
