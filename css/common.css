@@ -1,3 +1,8 @@
+:root{
+    --teal: #2eccac;
+    --tealHover: 279e8c;
+}
+
 * {
     font-family: "Poppins", sans-serif;
 }
@@ -21,8 +26,21 @@
 /* end of number input hide */
 
 .custom-bg {
-    background-color: #2eccac;
+    background-color: var(--teal);
 }
 .custom-bg:hover {
-    background-color: #279e8c;
+    background-color: var(--tealHover);
+}
+
+/* Our Facilities */
+.h-line {
+    width: 150px;
+    margin: 0 auto;
+    height: 1.7px;
+}
+
+.pop:hover {
+    border-top-color: var(--teal) !important;
+    transform: scale(1.04);
+    transition: 0.4;
 }
