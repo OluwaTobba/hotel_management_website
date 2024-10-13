@@ -267,6 +267,7 @@
 
     <!-- Rooms Section -->
     <h2 class="mt-5 pt-4 mb-4 text-center fw-bold h-font">OUR ROOMS</h2>
+
     <div class="container">
         <div class="row">
 
@@ -468,6 +469,7 @@
 
     <!-- Facilities Section -->
     <h2 class="mt-5 pt-4 mb-4 text-center fw-bold h-font">OUR FACILITIES</h2>
+
     <div class="container">
 
         <div class="row justify-content-evenly px-lg-0 px-md-0 px-5">
@@ -504,6 +506,7 @@
 
     <!-- Testimonials -->
     <h2 class="mt-5 pt-4 mb-4 text-center fw-bold h-font">TESTIMONIALS</h2>
+
     <div class="container mt-5">
 
         <div class="swiper testimonialSwiper">
@@ -592,16 +595,109 @@
 
             </div>
             <div class="swiper-pagination"></div>
+
+            <div class="col-lg-12 text-center mt-5">
+                <a href="#" class="btn btn-sm btn-outline-dark rounded-2 fw-bold shadow-none">KNOW MORE >>></a>
+            </div>
         </div>
 
     </div>
     <!-- End of Testimonials -->
 
     <!-- Contact Us Section -->
+    <h2 class="mt-5 pt-4 mb-4 text-center fw-bold h-font">CONTACT US</h2>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-8 col-md-8 p-4 mb-lg-0 mb-3 bg-white rounded">
+                <iframe class="w-100 rounded" height="320" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63311.10594247615!2d3.772379719769918!3d7.360160914536143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10398c4696f9b91b%3A0xf1010bd27084c3b3!2sOluyole%2C%20Ibadan%2C%20Oyo!5e0!3m2!1sen!2sng!4v1728828574599!5m2!1sen!2sng" loading="lazy"></iframe>
+            </div>
+
+            <div class="col-lg-4 col-md-4">
+
+                <div class="bg-white p-4 rounded">
+                    <h5>Call/Chat Us:</h5>
+                    <a href="tel: +2349154680747" class="d-inline-block mb-2 text-decoration-none text-dark">
+                        <i class="bi bi-telephone-outbound-fill"></i> +2349154680747
+                    </a>
+                    <br>
+                    <a href="https://wa.me/+2348141993288" class="d-inline-block text-decoration-none text-dark">
+                        <i class="bi bi-whatsapp"></i> +2348141993288
+                    </a>
+                </div>
+                
+                <div class="bg-white p-4 rounded">
+                    <h5>Follow Us:</h5>
+                    <a href="https://www.instagram.com/mtcinc2023" class="d-inline-block mb-3">
+                        <span class="badge bg-light text-dark fs-6 p-2">
+                            <i class="bi bi-instagram me-1"></i> MTC Templates
+                        </span>
+                    </a>
+                    <br>
+                    <a href="https://x.com/@mtcinc2023" class="d-inline-block mb-3">
+                        <span class="badge bg-light text-dark fs-6 p-2">
+                            <i class="bi bi-twitter-x me-1"></i> MTC Templates
+                        </span>
+                    </a>
+                    <br>
+                    <a href="https://linkedin.com/in/michaeltobba" class="d-inline-block">
+                        <span class="badge bg-light text-dark fs-6 p-2">
+                            <i class="bi bi-linkedin me-1"></i> MTC Templates CEO
+                        </span>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
     <!-- End of Contact Us Section -->
 
-    <br><br><br>
-    <br><br><br>
+    <!-- Footer Section -->
+    <div class="container-fluid bg-white mt-5 px-lg-3 py-lg-2">
+        <div class="row">
+
+            <div class="col-lg-5 p-4">
+                <h3 class="h-font fw-bold fs-3">MTC HOTEL</h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime voluptates culpa sint hic rem aperiam dignissimos illum cumque quisquam nobis. Omnis deleniti fugiat, aspernatur vero asperiores cumque mollitia molestias quis?
+                </p>
+            </div>
+            
+            <div class="col-lg-2 p-4">
+                <h5 class="mb-3">Links</h5>
+                <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">Home</a> </br>
+                <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">About</a> </br>
+                <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">Rooms</a> </br>
+                <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">Facilities</a> </br>
+                <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">Contact Us</a>
+            </div>
+            
+            <div class="col-lg-2 p-4">
+                <h5 class="mb-3">Follow Us</h5>
+                <a href="https://www.instagram.com/mtcinc2023" class="d-inline-block text-dark text-decoration-none mb-2">
+                    <i class="bi bi-instagram me-1"></i> MTC Templates
+                </a>
+                <br>
+                <a href="https://x.com/@mtcinc2023" class="d-inline-block text-dark text-decoration-none mb-2">
+                    <i class="bi bi-twitter-x me-1"></i> MTC Templates
+                </a>
+                <br>
+                <a href="https://linkedin.com/in/michaeltobba" class="d-inline-block text-dark text-decoration-none">
+                    <i class="bi bi-linkedin me-1"></i> MTC Templates CEO
+                </a>
+            </div>
+
+            <div class="col-lg-3 p-4">
+                <p>
+                    &copy; 2024 MTC HOTEL. All rights reserved. | Designed and Developed by <a href="https://www.mtctemplates.com" class="text-dark text-decoration-none">MTC Templates</a>
+                </p>
+            </div>
+        
+        </div>
+    </div>
+    <!-- End of Footer Section -->
 
     <!-- Bootstrap CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
