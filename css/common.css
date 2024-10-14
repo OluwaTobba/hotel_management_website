@@ -44,3 +44,7 @@
     transform: scale(1.04);
     transition: 0.4;
 }
+
+.aboutbox {
+    border-top-color: var(--teal) !important;
+}
