@@ -12,3 +12,5 @@ Features:
 7. Footer
 
 **FACILITIES PAGE**
+
+**ABOUT PAGE**
