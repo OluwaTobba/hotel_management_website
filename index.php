@@ -14,6 +14,19 @@
 
     <!-- Local Styling -->
     <style>
+
+        /* Mobile View */
+        @media (max-width: 768px) {
+            .carousel-height {
+                height: 250px; /* Adjust the height specifically for mobile */
+            }
+
+            /* Ensure the images fit within the container */
+            .swiper-image {
+                height: 100%;
+                object-fit: cover; /* Ensures images cover the height while maintaining aspect ratio */
+            }
+        }
         .booking-form {
             margin-top: -50px;
             z-index: 2;
@@ -33,16 +46,16 @@
 
     <!-- Header Carousel -->
     <div class="container-fluid px-lg-4 mt-3">
-        <div class="swiper swiper-container">
+        <div class="swiper swiper-container carousel-height">
             <div class="swiper-wrapper header-img">
                 <div class="swiper-slide">
-                    <img src="images/carousels/jagz-1.jpg" class="d-block w-100" />
+                    <img src="images/carousels/jagz-1.jpg" class="d-block w-100 swiper-image" />
                 </div>
                 <div class="swiper-slide">
-                    <img src="images/carousels/jagz-2.jpg" class="d-block w-100" />
+                    <img src="images/carousels/jagz-2.jpg" class="d-block w-100 swiper-image" />
                 </div>
                 <div class="swiper-slide">
-                    <img src="images/carousels/jagz-3.jpg" class="d-block w-100" />
+                    <img src="images/carousels/jagz-3.jpg" class="d-block w-100 swiper-image" />
                 </div>
             </div>
         </div>
