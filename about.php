@@ -76,34 +76,44 @@
         </div>
     </div>
 
-    <h3 class="my-5 fw-bold h-font text-center">MANAGEMENT TEAM</h3>
+    <h3 class="my-5 fw-bold h-font text-center">OUR MANAGEMENT TEAM</h3>
     <div class="container px-4">
 
         <div class="swiper teamSwiper">
 
             <div class="swiper-wrapper">
 
-                <div class="swiper-slide bg-white text-center overflow-hidden rounded">
-                    <img src="images/management/team-1.png" alt="team-member-1" class="w-100">
+                <div class="swiper-slide text-center overflow-hidden rounded">
+                    <img src="images/management/team-1.jpg" alt="team-member-1" class="w-100 rounded-circle">
                     <h5 class="mt-2">John Doe</h5>
                 </div>
 
-                <div class="swiper-slide bg-white text-center overflow-hidden rounded">
-                    <img src="images/management/team-4.png" alt="team-member-1" class="w-100">
+                <div class="swiper-slide text-center overflow-hidden rounded">
+                    <img src="images/management/team-1.jpg" alt="team-member-1" class="w-100 rounded-circle">
                     <h5 class="mt-2">John Doe</h5>
                 </div>
 
-                <div class="swiper-slide bg-white text-center overflow-hidden rounded">
-                    <img src="images/management/team-2.png" alt="team-member-1" class="w-100">
+                <div class="swiper-slide text-center overflow-hidden rounded">
+                    <img src="images/management/team-1.jpg" alt="team-member-1" class="w-100 rounded-circle">
                     <h5 class="mt-2">John Doe</h5>
                 </div>
 
-                <div class="swiper-slide bg-white text-center overflow-hidden rounded">
-                    <img src="images/management/team-3.png" alt="team-member-1" class="w-100">
+                <div class="swiper-slide text-center overflow-hidden rounded">
+                    <img src="images/management/team-1.jpg" alt="team-member-1" class="w-100 rounded-circle">
                     <h5 class="mt-2">John Doe</h5>
                 </div>
 
-            </div>
+                <div class="swiper-slide text-center overflow-hidden rounded">
+                    <img src="images/management/team-1.jpg" alt="team-member-1" class="w-100 rounded-circle">
+                    <h5 class="mt-2">John Doe</h5>
+                </div>
+
+                <div class="swiper-slide text-center overflow-hidden rounded">
+                    <img src="images/management/team-1.jpg" alt="team-member-1" class="w-100 rounded-circle">
+                    <h5 class="mt-2">John Doe</h5>
+                </div>
+
+            </div> <br>
 
             <div class="swiper-pagination"></div>
 
@@ -125,16 +135,16 @@
             },
             breakpoints: {
                 320: {
-                    slidesPerView: 1,
+                    slidesPerView: 2,
                 },
                 640: {
-                    slidesPerView: 1,
+                    slidesPerView: 2,
                 },
                 768: {
                     slidesPerView: 3,
                 },
                 1024: {
-                    slidesPerView: 3,
+                    slidesPerView: 4,
                 }
             }
         });
