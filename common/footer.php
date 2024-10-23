@@ -35,7 +35,7 @@
 
         <div class="col-lg-3 p-4">
             <p>
-                &copy; 2024 MTC HOTEL. All rights reserved. | Designed and Developed by <a href="https://www.mtctemplates.com" class="text-dark text-decoration-none">MTC Templates</a>
+                &copy; 2024 MTC HOTEL. All rights reserved. | Designed and Developed by <a href="https://www.mtctemplates.com" class="text-dark text-decoration-none">MTC Templates.</a>
             </p>
         </div>
     

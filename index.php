@@ -128,7 +128,7 @@
 
                     <div class="card-body">
 
-                        <h5>Single Room</h5>
+                        <h5>Standard Room</h5>
 
                         <h6 class="mb-4">₦200,000 per night</h6>
 
@@ -190,7 +190,7 @@
 
                     <div class="card-body">
 
-                        <h5>Single Room</h5>
+                        <h5>Terrace Room</h5>
 
                         <h6 class="mb-4">₦300,000 per night</h6>
 
@@ -253,7 +253,7 @@
 
                     <div class="card-body">
 
-                        <h5>Single Room</h5>
+                        <h5>Superior Room</h5>
 
                         <h6 class="mb-4">₦500,000 per night</h6>
 
@@ -309,7 +309,7 @@
             </div>
 
             <div class="col-lg-12 text-center mt-5">
-                <a href="#" class="btn btn-sm btn-outline-dark rounded-2 fw-bold shadow-none">SEE MORE ROOMS >>></a>
+                <a href="rooms.php" class="btn btn-sm btn-outline-dark rounded-2 fw-bold shadow-none">SEE MORE ROOMS >>></a>
             </div>
         
         </div>
@@ -468,11 +468,11 @@
                 <div class="bg-white p-4 rounded">
                     <h5>Call/Chat Us:</h5>
                     <a href="tel: +2349154680747" class="d-inline-block mb-2 text-decoration-none text-dark">
-                        <i class="bi bi-telephone-outbound-fill"></i> +2349154680747
+                        <i class="bi bi-telephone-outbound-fill"></i> +234 915 468 0747
                     </a>
                     <br>
                     <a href="https://wa.me/+2348141993288" class="d-inline-block text-decoration-none text-dark">
-                        <i class="bi bi-whatsapp"></i> +2348141993288
+                        <i class="bi bi-whatsapp"></i> +234 814 199 3288
                     </a>
                 </div>
                 

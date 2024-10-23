@@ -14,3 +14,7 @@ Features:
 **FACILITIES PAGE**
 
 **ABOUT PAGE**
+
+**ROOMS PAGE**
+
+**CONTACT US PAGE**
