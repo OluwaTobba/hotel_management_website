@@ -21,4 +21,4 @@ Features:
 
 **ADMIN PANEL**:
 1. Admin Login
-2. Admin Dashboard - Site Settings which includes: Title and Description Settings, Site shutdown, contact details settings.
+2. Admin Dashboard - Site Settings which includes: Title and Description Settings, Site shutdown, Contact Details Settings, Team Management Settings.
