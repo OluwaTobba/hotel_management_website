@@ -1,0 +1,77 @@
+:root{
+    --teal: #2eccac;
+    --tealHover: #279e8c;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+/************** Scroll Bar Effects **************/
+/* Chrome, Safari, Edge */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #414141;
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #808080;
+}
+/**************End of Scroll Bar Effects **************/
+
+.h-font {
+    font-family: "Merienda", cursive;
+}
+
+/* number input hide */
+    /* Chrome, Safari, Edge, Opera */
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    /* Firefox */
+    input[type=number] {
+        -moz-appearance: textfield;
+    }
+/* end of number input hide */
+
+.custom-bg {
+    background-color: var(--teal);
+}
+.custom-bg:hover {
+    background-color: var(--tealHover);
+}
+
+.custom-alert {
+    position: fixed;
+    top: 80px;
+    right: 25px;
+}
+
+#dashboard-menu {
+    position: fixed;
+    height: 100%;
+    z-index: 11;
+}
+
+@media screen and (max-width:900px){
+    #dashboard-menu {
+        height: auto;
+        width: 100%;
+    }
+    #main-content {
+        margin-top: 60px;
+    }
+}
+
+
